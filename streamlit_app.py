@@ -36,13 +36,15 @@ st.title("")
 # ---- HEADER SECTION ----
 with st.container():        
     st.header("Hola, soy Marcelo Yuba :wave:")
+    st.write("<hr style='border-top: 1px solid grey;'>", unsafe_allow_html=True)    
     st.title("Un Data Analyst  y Data Scientist de Buenos Aires, Argentina")
+    
     st.markdown("""
         #### Apasionado en el analisis de datos usando, Power BI y Python, tratando de forma mas eficiente,  obtener resultados para tu negocio o empresa.
     """)
  
 column_widths = [2, 1] 
-
+st.write("<hr style='border-top: 1px solid grey;'>", unsafe_allow_html=True)    
 with st.container():    
     st.title("Que es lo que hago")    
     col1, col2 = st.columns(column_widths)
