@@ -29,7 +29,7 @@ with st.container():
         st.title("")
           
     with col2: 
-        st.image("scr/SDTLogoC.png",width=1200, use_column_width=True, output_format='auto')
+        st.image("scr/banner.png",width=1200, use_column_width=True, output_format='auto')
 
 st.title("") 
         
