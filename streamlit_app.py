@@ -51,7 +51,7 @@ column_widths = [2, 1]
 with st.container():    
     st.title("Que es lo que hago")    
     col1, col2 = st.columns(column_widths)
-    # En la primera columna, puedes agregar texto u otros elementos si lo deseas
+   
     with col1:
         st.markdown("### Utilizando diferentes tecnologias, me permiten hacer analisis de datos, Dashboards interactivos"
                      )
@@ -66,14 +66,12 @@ with st.container():
             
             """
         )
-       
-    # En la segunda columna, puedes mostrar la imagen
-    with col2:
         st.markdown("""
-                    #### Para lograr los objetivos necesarios, hago uso de estas tecnologias, tanto para analisis de dato como dieño de dashoards"
+                    ##### Para lograr los objetivos necesarios, hago uso de estas tecnologias, tanto para analisis de dato como dieño de dashoards"
                     """)
-
-        imagen = "scr/tec.png"  # Reemplaza esto con la ruta de tu imagen
+   
+    with col2:
+        imagen = "scr/tec.png" 
         st.image(imagen, width=400)
             
 st.write("""
