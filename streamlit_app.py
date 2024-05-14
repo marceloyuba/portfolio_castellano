@@ -52,9 +52,9 @@ with st.container():
     col1, col2 = st.columns(column_widths)
     # En la primera columna, puedes agregar texto u otros elementos si lo deseas
     with col1:
-        st.subheader("Utilizando diferentes tecnologias, me permiten hacer analisis de datos, Dashboards interactivos"
+        st.header("Utilizando diferentes tecnologias, me permiten hacer analisis de datos, Dashboards interactivos"
                      )
-        st.markdown(
+        st.subheader(
             """            
             Como analista de datos, tengo un papel crucial en la interpretación y análisis de conjuntos de datos para extraer información significativa y tomar decisiones fundamentadas:
             - Comprensión del problema o pregunta: Antes de empezar cualquier análisis, es importante entender claramente cuál es el problema que estoy tratando de resolver o la pregunta que estoy tratando de responder.
