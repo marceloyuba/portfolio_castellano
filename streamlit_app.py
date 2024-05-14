@@ -30,26 +30,25 @@ st.title("")
 with st.container():        
     st.header("Hola, soy Marcelo Yuba :wave:")
     st.title("Un Data Analyst  y Data Scientist de Buenos Aires, Argentina")
-    st.write(
+    st.markdown(
         "Apasionado en el analisis de datos usando, Power BI y Python, tratando de forma mas eficiente,  obtener resultados para tu negocio o empresa."
     )
-    st.write("[Mi Github >](https://github.com/marceloyuba)")
-    st.write("[Mi LinkedIn >](https://www.linkedin.com/in/marcelo-yuba-b9a39827b/)")
+   
+    st.write('<div class="botones"><a href="https://www.linkedin.com/in/marcelo-yuba-b9a39827b/">Mi Linkedin</a>', unsafe_allow_html=True)
+    st.write('<div class="botones"><a href="https://github.com/marceloyuba">Mi Github</a>', unsafe_allow_html=True)
+        
 
 
 column_widths = [2, 1] 
 
-with st.container():
-    st.write("---")
-    st.title("Que es lo que hago")
-    st.write("##")
+with st.container():    
+    st.title("Que es lo que hago")    
     col1, col2 = st.columns(column_widths)
-
     # En la primera columna, puedes agregar texto u otros elementos si lo deseas
     with col1:
         st.subheader("Utilizando diferentes tecnologias, me permiten hacer analisis de datos, Dashboards interactivos"
                      )
-        st.write(
+        st.markdown(
             """            
             Como analista de datos, tengo un papel crucial en la interpretación y análisis de conjuntos de datos para extraer información significativa y tomar decisiones fundamentadas:
             - Comprensión del problema o pregunta: Antes de empezar cualquier análisis, es importante entender claramente cuál es el problema que estoy tratando de resolver o la pregunta que estoy tratando de responder.
@@ -60,16 +59,12 @@ with st.container():
             
             """
         )
-        st.write("Para lograr los objetivos necesarios, hago uso de estas tecnologias, tanto para analisis de dato como dieño de dashoards")
+        st.markdown("Para lograr los objetivos necesarios, hago uso de estas tecnologias, tanto para analisis de dato como dieño de dashoards")
 
     # En la segunda columna, puedes mostrar la imagen
     with col2:
         imagen = "scr/tec.png"  # Reemplaza esto con la ruta de tu imagen
         st.image(imagen, width=400)
-    
-st.write("---")
-st.title("Mis proyectos")    
-st.write("---")
             
 st.write("""
 <style>
@@ -89,7 +84,7 @@ with st.container():
     st.markdown('<style>h2 {color: white;}, font=</style>', unsafe_allow_html=True)
     st.markdown('<style>h1 {color: white;}, font=</style>', unsafe_allow_html=True)
     st.markdown('<style>write {color: white;}, font=</style>', unsafe_allow_html=True)    
-st.title("Nuestros proyectos")    
+st.title("Mis proyectos")     
 st.write("<hr style='border-top: 3px solid white;'>", unsafe_allow_html=True)    
 column_widths = [2, 1]
 with st.container():
