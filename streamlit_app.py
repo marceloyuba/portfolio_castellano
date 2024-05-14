@@ -162,7 +162,7 @@ with st.container():
 st.write("<hr style='border-top: 1px solid grey;'>", unsafe_allow_html=True)    
 with st.container():
     
-    st.header("Contactanos!")
+    st.header("Contactame!")
     st.write("##")
 
     # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
