@@ -3,7 +3,7 @@
 import streamlit as st
 from streamlit.hello.utils import show_code
 
-st.set_page_config(page_title="Portfolio Marcelo Yuba", page_icon="scr/fondo.jpg", layout="wide")
+st.set_page_config(page_title="Portfolio Marcelo Yuba", page_icon="scr/banner.png", layout="wide")
            
 def local_css(file_name):
     with open(file_name) as f:
@@ -38,7 +38,7 @@ with st.container():
     st.header("Hola, soy Marcelo Yuba :wave:")
     st.title("Un Data Analyst  y Data Scientist de Buenos Aires, Argentina")
     st.markdown("""
-        #### "Apasionado en el analisis de datos usando, Power BI y Python, tratando de forma mas eficiente,  obtener resultados para tu negocio o empresa."
+        #### Apasionado en el analisis de datos usando, Power BI y Python, tratando de forma mas eficiente,  obtener resultados para tu negocio o empresa.
     """)
    
     st.write('<div class="botones"><a href="https://www.linkedin.com/in/marcelo-yuba-b9a39827b/">Mi Linkedin</a>', unsafe_allow_html=True)
@@ -67,7 +67,7 @@ with st.container():
             """
         )
         st.markdown("""
-                    #### Para lograr los objetivos necesarios, hago uso de estas tecnologias, tanto para analisis de dato como dieño de dashoards"
+                    #### Para lograr los objetivos necesarios, hago uso de estas tecnologias, tanto para analisis de dato como dieño de dashoards
                     """)
    
     with col2:
