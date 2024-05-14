@@ -67,7 +67,7 @@ with st.container():
             """
         )
         st.markdown("""
-                    ##### Para lograr los objetivos necesarios, hago uso de estas tecnologias, tanto para analisis de dato como dieño de dashoards"
+                    #### Para lograr los objetivos necesarios, hago uso de estas tecnologias, tanto para analisis de dato como dieño de dashoards"
                     """)
    
     with col2:
