@@ -23,7 +23,7 @@ with st.container():
     
     col1, col2, col3 = st.columns(column_widths)   
     with col1:
-        st.title("")
+        st.empty()
         
     with col3:
         st.title("")
