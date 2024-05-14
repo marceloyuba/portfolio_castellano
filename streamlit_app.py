@@ -11,6 +11,7 @@ def local_css(file_name):
         
 local_css("style/style.css")
 with st.container():      
+    st.markdown('<style>h5{color: white;}, font=</style>', unsafe_allow_html=True)
     st.markdown('<style>h4{color: white;}, font=</style>', unsafe_allow_html=True)    
     st.markdown('<style>h3 {color: white;}, font=</style>', unsafe_allow_html=True)
     st.markdown('<style>h2 {color: white;}, font=</style>', unsafe_allow_html=True)
