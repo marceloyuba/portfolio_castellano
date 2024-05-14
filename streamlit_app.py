@@ -54,14 +54,14 @@ with st.container():
     with col1:
         st.header("Utilizando diferentes tecnologias, me permiten hacer analisis de datos, Dashboards interactivos"
                      )
-        st.subheader(
+        st.markdown(
             """            
-            Como analista de datos, tengo un papel crucial en la interpretación y análisis de conjuntos de datos para extraer información significativa y tomar decisiones fundamentadas:
-            - Comprensión del problema o pregunta: Antes de empezar cualquier análisis, es importante entender claramente cuál es el problema que estoy tratando de resolver o la pregunta que estoy tratando de responder.
-            - Recopilación de datos: Reunir todos los datos relevantes para el análisis. Estos datos pueden provenir de diversas fuentes, como bases de datos, hojas de cálculo, archivos CSV, APIs.
-            - Limpieza de datos: Los datos crudos rara vez están en una forma lista para el análisis. A menudo necesitan ser limpiados y preprocesados para eliminar valores atípicos, valores faltantes, errores de entrada, etc.
-            - Análisis exploratorio de datos (EDA): Este paso implica explorar los datos para comprender mejor sus características. Esto puede incluir la generación de estadísticas descriptivas, la visualización de datos y la identificación de patrones o relaciones.
-            - Toma de decisiones basada en datos: Utilizar los insights obtenidos del análisis para ayudar en la toma de decisiones. Esto podría implicar recomendaciones para acciones específicas o ajustes en estrategias existentes.
+            #### Como analista de datos, tengo un papel crucial en la interpretación y análisis de conjuntos de datos para extraer información significativa y tomar decisiones fundamentadas:
+            #### - Comprensión del problema o pregunta: Antes de empezar cualquier análisis, es importante entender claramente cuál es el problema que estoy tratando de resolver o la pregunta que estoy tratando de responder.
+            #### - Recopilación de datos: Reunir todos los datos relevantes para el análisis. Estos datos pueden provenir de diversas fuentes, como bases de datos, hojas de cálculo, archivos CSV, APIs.
+            #### - Limpieza de datos: Los datos crudos rara vez están en una forma lista para el análisis. A menudo necesitan ser limpiados y preprocesados para eliminar valores atípicos, valores faltantes, errores de entrada, etc.
+            #### - Análisis exploratorio de datos (EDA): Este paso implica explorar los datos para comprender mejor sus características. Esto puede incluir la generación de estadísticas descriptivas, la visualización de datos y la identificación de patrones o relaciones.
+            #### - Toma de decisiones basada en datos: Utilizar los insights obtenidos del análisis para ayudar en la toma de decisiones. Esto podría implicar recomendaciones para acciones específicas o ajustes en estrategias existentes.
             
             """
         )
