@@ -66,10 +66,11 @@ with st.container():
             
             """
         )
-        st.subheader("Para lograr los objetivos necesarios, hago uso de estas tecnologias, tanto para analisis de dato como dieño de dashoards")
-
+       
     # En la segunda columna, puedes mostrar la imagen
     with col2:
+        st.subheader("Para lograr los objetivos necesarios, hago uso de estas tecnologias, tanto para analisis de dato como dieño de dashoards")
+
         imagen = "scr/tec.png"  # Reemplaza esto con la ruta de tu imagen
         st.image(imagen, width=400)
             
