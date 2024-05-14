@@ -40,12 +40,7 @@ with st.container():
     st.markdown("""
         #### Apasionado en el analisis de datos usando, Power BI y Python, tratando de forma mas eficiente,  obtener resultados para tu negocio o empresa.
     """)
-   
-    st.write('<div class="botones"><a href="https://www.linkedin.com/in/marcelo-yuba-b9a39827b/">Mi Linkedin</a>', unsafe_allow_html=True)
-    st.write('<div class="botones"><a href="https://github.com/marceloyuba">Mi Github</a>', unsafe_allow_html=True)
-        
-
-
+ 
 column_widths = [2, 1] 
 
 with st.container():    
@@ -155,9 +150,11 @@ with st.container():
         st.markdown(""" 
                 #### Departamento: Data Analist, Graphic Design
                 #### Background: Diseño multimedial, Publicidad grafica, E-Commerce
-                #### Linkedin: [Acceder a su perfil](www.linkedin.com/in/marcelo-yuba)
-                #### Github: [Acceder a su perfil](https://github.com/marceloyuba)
                 """) 
+        st.write('<div class="botones"><a href="https://www.linkedin.com/in/marcelo-yuba-b9a39827b/">Mi Linkedin</a>', unsafe_allow_html=True)
+        st.write('<div class="botones"><a href="https://github.com/marceloyuba">Mi Github</a>', unsafe_allow_html=True)
+        
+
     with col2:
         imagen = "scr/fotoLI.jpg"  
         st.image(imagen, width=250, use_column_width=False, output_format='auto')   
