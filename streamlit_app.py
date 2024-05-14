@@ -52,7 +52,7 @@ with st.container():
     col1, col2 = st.columns(column_widths)
     # En la primera columna, puedes agregar texto u otros elementos si lo deseas
     with col1:
-        st.header("Utilizando diferentes tecnologias, me permiten hacer analisis de datos, Dashboards interactivos"
+        st.markdown("Utilizando diferentes tecnologias, me permiten hacer analisis de datos, Dashboards interactivos"
                      )
         st.markdown(
             """            
