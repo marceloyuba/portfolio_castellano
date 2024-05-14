@@ -10,7 +10,13 @@ def local_css(file_name):
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
         
 local_css("style/style.css")
-
+with st.container():      
+    st.markdown('<style>h4{color: white;}, font=</style>', unsafe_allow_html=True)    
+    st.markdown('<style>h3 {color: white;}, font=</style>', unsafe_allow_html=True)
+    st.markdown('<style>h2 {color: white;}, font=</style>', unsafe_allow_html=True)
+    st.markdown('<style>h1 {color: white;}, font=</style>', unsafe_allow_html=True)
+    st.markdown('<style>write {color: white;}, font=</style>', unsafe_allow_html=True)    
+    
 column_widths = [1, 3, 1]
 with st.container():
     
@@ -78,12 +84,6 @@ st.write("""
 </style>
 """, unsafe_allow_html=True)  
 
-with st.container():      
-    st.markdown('<style>h4{color: white;}, font=</style>', unsafe_allow_html=True)    
-    st.markdown('<style>h3 {color: white;}, font=</style>', unsafe_allow_html=True)
-    st.markdown('<style>h2 {color: white;}, font=</style>', unsafe_allow_html=True)
-    st.markdown('<style>h1 {color: white;}, font=</style>', unsafe_allow_html=True)
-    st.markdown('<style>write {color: white;}, font=</style>', unsafe_allow_html=True)    
 st.title("Mis proyectos")     
 st.write("<hr style='border-top: 3px solid white;'>", unsafe_allow_html=True)    
 column_widths = [2, 1]
