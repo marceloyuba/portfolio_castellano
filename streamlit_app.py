@@ -142,26 +142,7 @@ st.write("<hr style='border-top: 1px solid grey;'>", unsafe_allow_html=True)
 
 st.title("")
 
-st.title("Nuestro equipo de trabajo")
-
-with st.container():
-     
-    col1, col2 = st.columns(column_widths)
-    
-    
-    with col1:
-        st.header("Elizabeth Fraire")
-        st.markdown(""" 
-                #### Departamento: Data Science, Engineering, Analist
-                #### Background: Ciencias Biológicas
-                #### Linkedin: [Acceder a su perfil](https://www.linkedin.com/in/veronica-elizabeth-torres-fraire-a830bb234/)
-                #### Github: [Acceder a su perfil](https://github.com/Bethcosima)
-                """) 
-    
-    with col2:
-        imagen = "scr/Eli.jpg"  
-        st.image(imagen, width=250, use_column_width=False, output_format='auto')    
-
+st.title("Mis Datos")
 st.title("")
 
 with st.container():
