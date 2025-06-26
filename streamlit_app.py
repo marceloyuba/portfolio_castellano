@@ -156,22 +156,4 @@ with st.container():
     with right_column:
         st.empty()
 
-# ---- FONDO AZUL OSCURO PERSONALIZADO ----
-page_bg_img = f"""
-<style>
-[data-testid="stAppViewContainer"] > .main {{
-background-color: #0a2342; /* Azul oscuro */
-background-image: none;
-}}
 
-[data-testid="stHeader"] {{
-background: rgba(0, 0, 0, 0);
-}}
-
-[data-testid="stSidebar"] {{
-background: rgba(0, 0, 0, 0);
-}}
-</style>
-"""
-
-st.markdown(page_bg_img, unsafe_allow_html=True)
